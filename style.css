@@ -1,0 +1,44 @@
+/* *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.wrapper {
+  width: 60%;
+  height: 100%;
+  padding: 1.5rem;
+  background-color: rgb(152, 90, 211);
+  border-radius: 5%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.to-do {
+  width: 50%;
+  padding: 1rem;
+  outline: none;
+  border-style: none;
+  border-radius: 0.6rem;
+  border: 2px solid transparent;
+  transition: border 0.2s;
+  margin-bottom: 1rem;
+}
+.to-do:hover {
+  border: 2px solid #333;
+} */
